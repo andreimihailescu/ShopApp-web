@@ -1,9 +1,10 @@
 import React from 'react';
+import { Frame } from '../features/frame/Frame';
 
 function ShopItems() {
     return (
         <div>
-            <h1>This is items page.</h1>
+            <Frame></Frame>
         </div>
     );
 }
